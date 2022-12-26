@@ -1,0 +1,52 @@
+.quem-somos__titulo {
+    color: black;
+    font-family: Pacifico, cursive;
+    font-size: 3.1875rem;
+    margin-bottom: 1rem;
+}
+
+.quem-somos {
+    padding: 5rem;
+    text-align: center;
+}
+
+.pessoa {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pessoa__nome {
+    color: blue;
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.pessoa__funcao {
+    color: black;
+    font-size: 1.25rem;
+}
+
+.pessoas {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.pessoa__imagem {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.pessoa__imagem--gatiele {
+    background-image: url('../img/pessoas/gatiele.svg');
+}
+
+.pessoa__imagem--natalia {
+    background-image: url('../img/pessoas/natalia.svg');
+}
